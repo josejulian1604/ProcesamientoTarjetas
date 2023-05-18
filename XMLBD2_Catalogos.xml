@@ -1,0 +1,104 @@
+<root>
+   <TDI>
+      <TDIs Nombre="Cedula de CR" Formato="9-9999-9999" />
+      <TDIs Nombre="Pasaporte" Formato="CR9999999" />
+      <TDIs Nombre="Licencia de CR" Formato="B999999" />
+   </TDI>
+   <TCTM>
+      <TCTMs Nombre="Corporativo" />
+      <TCTMs Nombre="Platino" />
+      <TCTMs Nombre="Oro" />
+   </TCTM>
+   <TRN>
+      <TRNs Nombre="Porcentaje" tipo="real" />
+      <TRNs Nombre="Cantidad de Dias" tipo="Entero" />
+      <TRNs Nombre="Cantidad de Operaciones" tipo="Entero" />
+      <TRNs Nombre="Monto Monetario" tipo="Money" />
+   </TRN>
+   <RN>
+      <RNs Nombre="Maximo limite credito" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="10000000" />
+      <RNs Nombre="Tasa de interes corriente" TCTM="Corporativo" TipoRN="Porcentaje" Valor="4" />
+      <RNs Nombre="intereses moratorios" TCTM="Corporativo" TipoRN="Porcentaje" Valor="6" />
+      <RNs Nombre="Cargos Servicio Mensual CTM" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="5000" />
+      <RNs Nombre="Cargos Servicio Mensual CTA" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="3000" />
+      <RNs Nombre="Plazo para Pagar" TCTM="Corporativo" TipoRN="Cantidad de Dias" Valor="243" />
+      <RNs Nombre="Reposicion de tarjeta de CTM" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="5000" />
+      <RNs Nombre="Reposicion de tarjeta de CTA" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="4000" />
+      <RNs Nombre="Cargo Seguro Contra Fraudes" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="6000" />
+      <RNs Nombre="Cargo renovacion de TF de CTM" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="5000" />
+      <RNs Nombre="Cargo renovacion de TF de CTA" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="4000" />
+      <RNs Nombre="Cantidad de opraciones en ATM" TCTM="Corporativo" TipoRN="Cantidad de Operaciones" Valor="10" />
+      <RNs Nombre="Cantidad de operacion en Ventanilla" TCTM="Corporativo" TipoRN="Cantidad de Operaciones" Valor="8" />
+      <RNs Nombre="Multa exceso de operaciones ATM" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="3000" />
+      <RNs Nombre="Multa exceso de operaciones Ventanilla" TCTM="Corporativo" TipoRN="Monto Monetario" Valor="2800" />
+      <RNs Nombre="Cantidad de dias para pago saldo de contado" TCTM="Corporativo" TipoRN="Cantidad de Dias" Valor="15" />
+      <RNs Nombre="Maximo limite credito" TCTM="Platino" TipoRN="Monto Monetario" Valor="7000000" />
+      <RNs Nombre="Tasa de interes corriente" TCTM="Platino" TipoRN="Porcentaje" Valor="4" />
+      <RNs Nombre="intereses moratorios" TCTM="Platino" TipoRN="Porcentaje" Valor="5" />
+      <RNs Nombre="Cargos Servicio Mensual CTM" TCTM="Platino" TipoRN="Monto Monetario" Valor="4500" />
+      <RNs Nombre="Cargos Servicio Mensual CTA" TCTM="Platino" TipoRN="Monto Monetario" Valor="2500" />
+      <RNs Nombre="Plazo para Pagar" TCTM="Platino" TipoRN="Cantidad de Dias" Valor="182" />
+      <RNs Nombre="Reposicion de tarjeta de CTM" TCTM="Platino" TipoRN="Monto Monetario" Valor="4500" />
+      <RNs Nombre="Reposicion de tarjeta de CTA" TCTM="Platino" TipoRN="Monto Monetario" Valor="3500" />
+      <RNs Nombre="Cargo Seguro Contra Fraudes" TCTM="Platino" TipoRN="Monto Monetario" Valor="5000" />
+      <RNs Nombre="Cargo renovacion de TF de CTM" TCTM="Platino" TipoRN="Monto Monetario" Valor="4500" />
+      <RNs Nombre="Cargo renovacion de TF de CTA" TCTM="Platino" TipoRN="Monto Monetario" Valor="3500" />
+      <RNs Nombre="Cantidad de opraciones en ATM" TCTM="Platino" TipoRN="Cantidad de Operaciones" Valor="8" />
+      <RNs Nombre="Cantidad de operacion en Ventanilla" TCTM="Platino" TipoRN="Cantidad de Operaciones" Valor="6" />
+      <RNs Nombre="Multa exceso de operaciones ATM" TCTM="Platino" TipoRN="Monto Monetario" Valor="2500" />
+      <RNs Nombre="Multa exceso de operaciones Ventanilla" TCTM="Platino" TipoRN="Monto Monetario" Valor="2400" />
+      <RNs Nombre="Cantidad de dias para pago saldo de contado" TCTM="Platino" TipoRN="Cantidad de Dias" Valor="10" />
+      <RNs Nombre="Maximo limite credito" TCTM="Oro" TipoRN="Monto Monetario" Valor="5000000" />
+      <RNs Nombre="Tasa de interes corriente" TCTM="Oro" TipoRN="Porcentaje" Valor="3.5" />
+      <RNs Nombre="intereses moratorios" TCTM="Oro" TipoRN="Porcentaje" Valor="5" />
+      <RNs Nombre="Cargos Servicio Mensual CTM" TCTM="Oro" TipoRN="Monto Monetario" Valor="4000" />
+      <RNs Nombre="Cargos Servicio Mensual CTA" TCTM="Oro" TipoRN="Monto Monetario" Valor="2000" />
+      <RNs Nombre="Plazo para Pagar" TCTM="Oro" TipoRN="Cantidad de Dias" Valor="182" />
+      <RNs Nombre="Reposicion de tarjeta de CTM" TCTM="Oro" TipoRN="Monto Monetario" Valor="4000" />
+      <RNs Nombre="Reposicion de tarjeta de CTA" TCTM="Oro" TipoRN="Monto Monetario" Valor="3000" />
+      <RNs Nombre="Cargo Seguro Contra Fraudes" TCTM="Oro" TipoRN="Monto Monetario" Valor="4000" />
+      <RNs Nombre="Cargo renovacion de TF de CTM" TCTM="Oro" TipoRN="Monto Monetario" Valor="4000" />
+      <RNs Nombre="Cargo renovacion de TF de CTA" TCTM="Oro" TipoRN="Monto Monetario" Valor="3000" />
+      <RNs Nombre="Cantidad de opraciones en ATM" TCTM="Oro" TipoRN="Cantidad de Operaciones" Valor="7" />
+      <RNs Nombre="Cantidad de operacion en Ventanilla" TCTM="Oro" TipoRN="Cantidad de Operaciones" Valor="5" />
+      <RNs Nombre="Multa exceso de operaciones ATM" TCTM="Oro" TipoRN="Monto Monetario" Valor="2000" />
+      <RNs Nombre="Multa exceso de operaciones Ventanilla" TCTM="Oro" TipoRN="Monto Monetario" Valor="2000" />
+      <RNs Nombre="Cantidad de dias para pago saldo de contado" TCTM="Oro" TipoRN="Cantidad de Dias" Valor="8" />
+   </RN>
+   <MIT>
+      <MITs Nombre="Robo" />
+      <MITs Nombre="Perdida" />
+      <MITs Nombre="Vencimiento" />
+   </MIT>
+   <TM>
+      <TMs Nombre="Compra" Accion="Debito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Retiro en ATM" Accion="Debito" Acumula_Operacion_ATM="SI" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Pago en ATM" Accion="Credito" Acumula_Operacion_ATM="SI" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Retiro en Ventana" Accion="Debito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="SI" />
+      <TMs Nombre="Pago en Ventana" Accion="Credito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="SI" />
+      <TMs Nombre="Pago en Linea" Accion="Credito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Recuperacion por Perdida" Accion="Debito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Recuperacion por Robo" Accion="Debito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Renovacion de TF" Accion="Debito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Cargos por Servicio" Accion="Credito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Cargos por Multa Exceso Uso ATM" Accion="Credito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Cargos por Multa Exceso Uso Ventana" Accion="Credito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Intereses Corrientes sobre Saldo" Accion="Debito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+      <TMs Nombre="Intereses Moratorios Pago no Realizado" Accion="Debito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
+   </TM>
+   <UA>
+      <Usuario Nombre="Tyler" Password="h5LVg" />
+      <Usuario Nombre="Scott" Password="8dOLx" />
+      <Usuario Nombre="Joseph" Password="S8ByU" />
+      <Usuario Nombre="Richard" Password="m5Oyx" />
+      <Usuario Nombre="Gregory" Password="5SpdN" />
+      <Usuario Nombre="Kimberly" Password="5sFcC" />
+      <Usuario Nombre="Rebecca" Password="2cRrf" />
+      <Usuario Nombre="Barbara" Password="yW9Ha" />
+      <Usuario Nombre="Christopher" Password="K05Rs" />
+   </UA>
+   <TMTI>
+      <TMTIs Nombre="Credito Interes Diario" Accion="Suma" />
+      <TMTIs Nombre="Debito por Redencion" Accion="Resta" />
+   </TMTI>
+</root>
