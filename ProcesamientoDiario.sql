@@ -7,54 +7,103 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE ProcesamientoDiario
+ALTER PROCEDURE ProcesamientoDiario
 	@inRutaXML NVARCHAR(500)
 	, @outResultCode INT OUTPUT
 AS
 BEGIN
-	
+	--BEGIN TRY
 	SET NOCOUNT ON;
-
 	DECLARE @Datos xml;
 	DECLARE @Comando NVARCHAR(500)= 'SELECT @Datos = D FROM OPENROWSET (BULK '  + CHAR(39) + @inRutaXML + CHAR(39) + ', SINGLE_BLOB) AS Datos(D)' -- comando que va a ejecutar el sql dinamico
     DECLARE @Parametros NVARCHAR(500)
 	DECLARE @hdoc int /*Creamos hdoc que va a ser un identificador*/
 
 	SET @Parametros = N'@Datos xml OUTPUT'
+	
 
 	EXECUTE sp_executesql @Comando, @Parametros, @Datos OUTPUT -- ejecutamos el comando que hicimos dinamicamente
 
 	EXEC sp_xml_preparedocument @hdoc OUTPUT, @Datos/*Toma el identificador y a la variable con el documento y las asocia*/
-
-    BEGIN TRY
-		DECLARE @Fechas TABLE (
+	DECLARE @Fechas TABLE (
 			Fecha DATE
-		);
-		DECLARE @FechaItera DATE
-				, @FechaFinal DATE;
-		DECLARE @NuevosTH TABLE (
-				Nombre VARCHAR(128)
-				, TipoDocId VARCHAR(128)
-				, ValorDocId VARCHAR(128)
-				, Username VARCHAR(128)
-				, Password VARCHAR(128)
-				);
+	);
+	DECLARE @FechaItera DATE
+			, @FechaFinal DATE;
+	DECLARE @NuevosTH TABLE (
+			Id INT IDENTITY(1, 1)
+			, Nombre VARCHAR(128)
+			, TipoDocId VARCHAR(128)
+			, ValorDocId VARCHAR(128)
+			, Username VARCHAR(128)
+			, Password VARCHAR(128)
+			);
+	
+	-- Se extraen todas las fechas --
+	INSERT INTO @Fechas
+		(
+		[Fecha]
+		)
+	SELECT 
+		fechaOP.Fecha
+	FROM OPENXML (@hdoc, '/root/fechaOperacion', 1)
+	WITH
+		(
+		Fecha DATE
+		) AS fechaOP
+	
+	SELECT @FechaItera = MIN(F.Fecha)
+	FROM @Fechas F
 
-		-- Se extraen todas las fechas --
-		INSERT INTO @Fechas
-			(
-			[Fecha]
-			)
-			/*SELECT  CarId as [@CarID],  				Name  AS [CarInfo/Name],  				Make [CarInfo/Make],  				Model [CarInfo/Model],  				Price,  				Type			FROM Car 			FOR XML PATH ('Car'), ROOT('Cars')*/
-			/*DECLARE @xmlData XML				SET @xmlData = '				<Root>				  <Person>					<Name>John Doe</Name>					<Age>30</Age>				  </Person>				</Root>'				DECLARE @name VARCHAR(50)				SELECT @name = @xmlData.value('(/Root/Person/Name)[1]', 'varchar(50)')				SELECT @name AS PersonName*/
-		SELECT
-			OpDate.Fecha
-		FROM OPENXML (@hdoc, '/root/fechaOperacion', 1)
-		WITH
-			(
-			Fecha DATE
-			) AS OpDate;
-	END TRY
+	SET @FechaFinal = CONVERT(DATE, '2023-05-20')
+
+	WHILE (@FechaItera < @FechaFinal)
+	BEGIN
+
+		/*-----------------------INSERTAR NUEVOS TH-------------------*/
+		INSERT INTO @NuevosTH
+				(
+				[Nombre]
+				, [TipoDocId]
+				, [ValorDocId]
+				, [Username]
+				, [Password]
+				)
+		SELECT 
+			T.Item.value('@Nombre', 'VARCHAR(128)'),
+			T.Item.value('@Tipo_Doc_Identidad', 'VARCHAR(128)'),
+			T.Item.value('@Valor_Doc_Identidad', 'VARCHAR(128)'),
+			T.Item.value('@NombreUsuario', 'VARCHAR(128)'),
+			T.Item.value('@Password', 'VARCHAR(128)')
+		FROM @Datos.nodes('/root/fechaOperacion[@Fecha = sql:variable("@FechaItera")]/TH/TH') AS T(Item);
+		
+		INSERT INTO [dbo].[TarjetaHabiente]
+					(
+					[IdTipoDocId]
+					, [Nombre]
+					, [ValorDocId]
+					, [Username]
+					, [Password]
+					)
+		SELECT TOP 6
+			TD.Id
+			, NTH.Nombre
+			, NTH.ValorDocId
+			, NTH.Username
+			, NTH.Password
+		FROM @NuevosTH NTH
+		INNER JOIN [dbo].[TipoDocId] TD ON TD.Nombre = NTH.TipoDocId
+		ORDER BY NTH.Id DESC;
+
+		/*-----------------------INSERTAR NTCM-------------------*/
+
+
+		SELECT @FechaItera = MIN(F.Fecha)
+		FROM @Fechas F
+		WHERE F.Fecha > @FechaItera;
+	END;
+	/*END TRY
+	
 	BEGIN CATCH
 		INSERT INTO dbo.DBErrors	
 		VALUES (
@@ -69,9 +118,9 @@ BEGIN
 			);
 
 			SET @outResultCode=50005; -- Error en el try-catch
-	END CATCH
+	END CATCH*/
 
 	EXEC sp_xml_removedocument @hdoc/*Remueve el documento XML de la memoria*/
-
+	SELECT * FROM @NuevosTH
 END
 GO
