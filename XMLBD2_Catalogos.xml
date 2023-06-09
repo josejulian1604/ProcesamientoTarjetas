@@ -87,18 +87,120 @@
       <TM Nombre="Intereses Moratorios Pago no Realizado" Accion="Debito" Acumula_Operacion_ATM="NO" Acumula_Operacion_Ventana="NO" />
    </TM>
    <UA>
-      <Usuario Nombre="Tyler" Password="h5LVg" />
-      <Usuario Nombre="Scott" Password="8dOLx" />
-      <Usuario Nombre="Joseph" Password="S8ByU" />
-      <Usuario Nombre="Richard" Password="m5Oyx" />
-      <Usuario Nombre="Gregory" Password="5SpdN" />
-      <Usuario Nombre="Kimberly" Password="5sFcC" />
-      <Usuario Nombre="Rebecca" Password="2cRrf" />
-      <Usuario Nombre="Barbara" Password="yW9Ha" />
-      <Usuario Nombre="Christopher" Password="K05Rs" />
+      <Usuario Nombre="Carrie" Password="i1HKt" />
+      <Usuario Nombre="Timothy" Password="3P2vO" />
+      <Usuario Nombre="Shawn" Password="6W5Bf" />
+      <Usuario Nombre="Marcus" Password="X0Tro" />
+      <Usuario Nombre="Steven" Password="F2BaV" />
+      <Usuario Nombre="John" Password="H4aEf" />
+      <Usuario Nombre="Rachel" Password="w1GGq" />
+      <Usuario Nombre="Michael" Password="4Sugo" />
+      <Usuario Nombre="Sean" Password="6FEzm" />
    </UA>
    <TMTI>
-      <TMTI Nombre="Debito Interes Saldo" Accion="Suma" />
-      <TMTI Nombre="Credito por Redencion" Accion="Resta" />
+      <TMTI Nombre="Credito Interes Diario" Accion="Suma" />
+      <TMTI Nombre="Debito por Redencion" Accion="Resta" />
    </TMTI>
+   <NuevasTF>
+      <NuevaTF Numero="1894386967469599" />
+      <NuevaTF Numero="4947709369459899" />
+      <NuevaTF Numero="7548065021098228" />
+      <NuevaTF Numero="4176996793938562" />
+      <NuevaTF Numero="8473784776069938" />
+      <NuevaTF Numero="9125842420651816" />
+      <NuevaTF Numero="2977106263022867" />
+      <NuevaTF Numero="3145762067096035" />
+      <NuevaTF Numero="7562357021236486" />
+      <NuevaTF Numero="9363334098317748" />
+      <NuevaTF Numero="1804695792634204" />
+      <NuevaTF Numero="1143274798971962" />
+      <NuevaTF Numero="1774874777419566" />
+      <NuevaTF Numero="5321592944138296" />
+      <NuevaTF Numero="2362825911223494" />
+      <NuevaTF Numero="4083068074205956" />
+      <NuevaTF Numero="5707793688106684" />
+      <NuevaTF Numero="5052470778731191" />
+      <NuevaTF Numero="8280538042383862" />
+      <NuevaTF Numero="6864324101191352" />
+      <NuevaTF Numero="6369362907657213" />
+      <NuevaTF Numero="8289105788734107" />
+      <NuevaTF Numero="3573832228925287" />
+      <NuevaTF Numero="2098837940326425" />
+      <NuevaTF Numero="4913698610296291" />
+      <NuevaTF Numero="5986165595883666" />
+      <NuevaTF Numero="9540913339070187" />
+      <NuevaTF Numero="2536319902737356" />
+      <NuevaTF Numero="5310834915275836" />
+      <NuevaTF Numero="4785459455415819" />
+      <NuevaTF Numero="1443568445857405" />
+      <NuevaTF Numero="2951507808774752" />
+      <NuevaTF Numero="4288518498583519" />
+      <NuevaTF Numero="3861417355880796" />
+      <NuevaTF Numero="6471755681894200" />
+      <NuevaTF Numero="9700710197179340" />
+      <NuevaTF Numero="8054078263745155" />
+      <NuevaTF Numero="7274396466732425" />
+      <NuevaTF Numero="6547905253441645" />
+      <NuevaTF Numero="2556345385428217" />
+      <NuevaTF Numero="9432507842691452" />
+      <NuevaTF Numero="6939786177587368" />
+      <NuevaTF Numero="2263571681377137" />
+      <NuevaTF Numero="3239023319633687" />
+      <NuevaTF Numero="4113603667264500" />
+      <NuevaTF Numero="5238491833448892" />
+      <NuevaTF Numero="3107704326152109" />
+      <NuevaTF Numero="7218238705081972" />
+      <NuevaTF Numero="3890952334209192" />
+      <NuevaTF Numero="3100168802812454" />
+      <NuevaTF Numero="7036094830367765" />
+      <NuevaTF Numero="7055171672010394" />
+      <NuevaTF Numero="5476594775735852" />
+      <NuevaTF Numero="7735578979322652" />
+      <NuevaTF Numero="8281508490479415" />
+      <NuevaTF Numero="7750118873589710" />
+      <NuevaTF Numero="4552941433717573" />
+      <NuevaTF Numero="2708429702056943" />
+      <NuevaTF Numero="8707181293185036" />
+      <NuevaTF Numero="6631733058805341" />
+      <NuevaTF Numero="2620739813204308" />
+      <NuevaTF Numero="1890703626165205" />
+      <NuevaTF Numero="6726909884361543" />
+      <NuevaTF Numero="3463966053060554" />
+      <NuevaTF Numero="3293741873309875" />
+      <NuevaTF Numero="9033046102070669" />
+      <NuevaTF Numero="8417953047479132" />
+      <NuevaTF Numero="1851630040788345" />
+      <NuevaTF Numero="5465475563725586" />
+      <NuevaTF Numero="9259781147795446" />
+      <NuevaTF Numero="2576776640644911" />
+      <NuevaTF Numero="2754648110714664" />
+      <NuevaTF Numero="6848899375687405" />
+      <NuevaTF Numero="9733435380475441" />
+      <NuevaTF Numero="9775766077334242" />
+      <NuevaTF Numero="7856670807939794" />
+      <NuevaTF Numero="1625679628011583" />
+      <NuevaTF Numero="2400527311211361" />
+      <NuevaTF Numero="6564803790878911" />
+      <NuevaTF Numero="2097985846166236" />
+      <NuevaTF Numero="1026140838268414" />
+      <NuevaTF Numero="5313791480055079" />
+      <NuevaTF Numero="7451005212895020" />
+      <NuevaTF Numero="7740124071997557" />
+      <NuevaTF Numero="4203099341013600" />
+      <NuevaTF Numero="6259063698013875" />
+      <NuevaTF Numero="3589852756230001" />
+      <NuevaTF Numero="4210308318589835" />
+      <NuevaTF Numero="4004071864793846" />
+      <NuevaTF Numero="2663730693468669" />
+      <NuevaTF Numero="2493824119111865" />
+      <NuevaTF Numero="7632226642653849" />
+      <NuevaTF Numero="6914776162620518" />
+      <NuevaTF Numero="7993510855185092" />
+      <NuevaTF Numero="4624578351499848" />
+      <NuevaTF Numero="8699766370513465" />
+      <NuevaTF Numero="2775699508809709" />
+      <NuevaTF Numero="3206552912674262" />
+      <NuevaTF Numero="7760562190481297" />
+      <NuevaTF Numero="9445853628566296" />
+   </NuevasTF>
 </root>
