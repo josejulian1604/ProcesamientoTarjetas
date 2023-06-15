@@ -1,0 +1,142 @@
+<root>
+   <fechaOperacion Fecha="2023-06-07">
+      <TH>
+         <TH Nombre="Christina Rodriguez" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="7-9885-4458" NombreUsuario="CRodriguez" Password="2YQWe" />
+         <TH Nombre="Alisha Jimenez" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="5-8318-8226" NombreUsuario="AJimenez" Password="4UzEq" />
+         <TH Nombre="Elizabeth Sanders" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="1-8625-7319" NombreUsuario="ESanders" Password="82AsD" />
+         <TH Nombre="Stacey Davis" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="2-6763-5825" NombreUsuario="SDavis" Password="8ZhAn" />
+         <TH Nombre="Allison Pena" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="1-5653-9600" NombreUsuario="APena" Password="62YTw" />
+         <TH Nombre="Jeremy Rodriguez" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="6-2517-1102" NombreUsuario="JRodriguez" Password="i2Bf9" />
+      </TH>
+      <NTCM>
+         <NTCM Codigo="23517" TipoCTM="Oro" LimiteCredito="5000000" TH="7-9885-4458" />
+         <NTCM Codigo="16551" TipoCTM="Oro" LimiteCredito="5000000" TH="5-8318-8226" />
+         <NTCM Codigo="36997" TipoCTM="Oro" LimiteCredito="5000000" TH="1-8625-7319" />
+      </NTCM>
+      <NTCA>
+         <NTCA CodigoTCM="23517" CodigoTCA="42815" TH="2-6763-5825" />
+         <NTCA CodigoTCM="23517" CodigoTCA="56406" TH="1-5653-9600" />
+         <NTCA CodigoTCM="16551" CodigoTCA="85245" TH="6-2517-1102" />
+      </NTCA>
+      <NTF>
+         <NTF Codigo="7041300871546936" TCAsociada="23517" FechaVencimiento="6/2023" CCV="5025" />
+         <NTF Codigo="4325314918417076" TCAsociada="42815" FechaVencimiento="6/2023" CCV="3070" />
+         <NTF Codigo="4377103863544381" TCAsociada="16551" FechaVencimiento="3/2024" CCV="8943" />
+         <NTF Codigo="5484908287631670" TCAsociada="56406" FechaVencimiento="5/2024" CCV="7031" />
+         <NTF Codigo="3371837816428913" TCAsociada="36997" FechaVencimiento="7/2024" CCV="7061" />
+         <NTF Codigo="2835352309556452" TCAsociada="85245" FechaVencimiento="10/2024" CCV="4294" />
+      </NTF>
+      <Movimiento>
+         <Movimiento Nombre="Compra" TF="5484908287631670" FechaMovimiento="2023-06-07" Monto="10012" Descripcion="Walmart Santa Ana" Referencia="38HqF" />
+         <Movimiento Nombre="Retiro en ATM" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="20242" Descripcion="ATM de Tarrazú" Referencia="3DTsj" />
+         <Movimiento Nombre="Retiro en Ventana" TF="2835352309556452" FechaMovimiento="2023-06-07" Monto="50518" Descripcion="Sucursal de Abangares" Referencia="0nFQl" />
+         <Movimiento Nombre="Pago en Linea" TF="7041300871546936" FechaMovimiento="2023-06-07" Monto="12744" Descripcion="Banca en Linea" Referencia="K6HmP" />
+         <Movimiento Nombre="Pago en ATM" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="93061" Descripcion="ATM de Guatuso" Referencia="72jMs" />
+         <Movimiento Nombre="Pago en Ventana" TF="5484908287631670" FechaMovimiento="2023-06-07" Monto="40144" Descripcion="Sucursal de Liberia" Referencia="9J6zq" />
+         <Movimiento Nombre="Compra" TF="7041300871546936" FechaMovimiento="2023-06-07" Monto="36594" Descripcion="Walmart Corredores" Referencia="0J8zh" />
+         <Movimiento Nombre="Pago en Linea" TF="4377103863544381" FechaMovimiento="2023-06-07" Monto="55895" Descripcion="Banca en Linea" Referencia="2kPTr" />
+         <Movimiento Nombre="Compra" TF="4325314918417076" FechaMovimiento="2023-06-07" Monto="5985" Descripcion="Walmart Parrita" Referencia="EK3Gy" />
+         <Movimiento Nombre="Compra" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="31817" Descripcion="Walmart Santo Domingo" Referencia="3XwQp" />
+         <Movimiento Nombre="Retiro en ATM" TF="5484908287631670" FechaMovimiento="2023-06-07" Monto="61866" Descripcion="ATM de Carrillo" Referencia="4BEgf" />
+         <Movimiento Nombre="Retiro en Ventana" TF="5484908287631670" FechaMovimiento="2023-06-07" Monto="25900" Descripcion="Sucursal de Curridabat" Referencia="p5wOy" />
+         <Movimiento Nombre="Pago en Linea" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="5534" Descripcion="Banca en Linea" Referencia="E4Dwj" />
+         <Movimiento Nombre="Pago en ATM" TF="7041300871546936" FechaMovimiento="2023-06-07" Monto="95747" Descripcion="ATM de Valverde Vega" Referencia="u8Hlj" />
+         <Movimiento Nombre="Pago en Ventana" TF="2835352309556452" FechaMovimiento="2023-06-07" Monto="20563" Descripcion="Sucursal de Santo Domingo" Referencia="3AKXp" />
+         <Movimiento Nombre="Compra" TF="5484908287631670" FechaMovimiento="2023-06-07" Monto="70146" Descripcion="Walmart La Unión" Referencia="7sRz2" />
+         <Movimiento Nombre="Retiro en ATM" TF="2835352309556452" FechaMovimiento="2023-06-07" Monto="36179" Descripcion="ATM de Guatuso" Referencia="a4Zmu" />
+         <Movimiento Nombre="Retiro en Ventana" TF="2835352309556452" FechaMovimiento="2023-06-07" Monto="93340" Descripcion="Sucursal de San José" Referencia="44X7l" />
+         <Movimiento Nombre="Compra" TF="4325314918417076" FechaMovimiento="2023-06-07" Monto="41724" Descripcion="Walmart Parrita" Referencia="E8qRd" />
+         <Movimiento Nombre="Retiro en ATM" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="71834" Descripcion="ATM de Curridabat" Referencia="4uAxi" />
+         <Movimiento Nombre="Compra" TF="5484908287631670" FechaMovimiento="2023-06-07" Monto="49792" Descripcion="Walmart Nandayure" Referencia="N4Cs0" />
+         <Movimiento Nombre="Retiro en ATM" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="27724" Descripcion="ATM de San Isidro" Referencia="4Z4az" />
+         <Movimiento Nombre="Retiro en Ventana" TF="4377103863544381" FechaMovimiento="2023-06-07" Monto="49829" Descripcion="Sucursal de Naranjo" Referencia="1MqUu" />
+         <Movimiento Nombre="Pago en Linea" TF="5484908287631670" FechaMovimiento="2023-06-07" Monto="80017" Descripcion="Banca en Linea" Referencia="0SSkx" />
+         <Movimiento Nombre="Recuperacion por Perdida" TF="4377103863544381" FechaMovimiento="2023-06-07" Monto="0" Descripcion="En Liberia" Referencia="Ic7Rq" />
+         <Movimiento Nombre="Recuperacion por Robo" TF="7041300871546936" FechaMovimiento="2023-06-07" Monto="0" Descripcion="En Upala" Referencia="u8gMc" />
+         <Movimiento Nombre="Pago en ATM" TF="4325314918417076" FechaMovimiento="2023-06-07" Monto="72051" Descripcion="ATM de Turrubares" Referencia="H0MIq" />
+         <Movimiento Nombre="Pago en Ventana" TF="4325314918417076" FechaMovimiento="2023-06-07" Monto="45046" Descripcion="Sucursal de Osa" Referencia="7wM5q" />
+         <Movimiento Nombre="Compra" TF="2835352309556452" FechaMovimiento="2023-06-07" Monto="11885" Descripcion="Walmart Sarapiquí" Referencia="0gNnu" />
+         <Movimiento Nombre="Retiro en ATM" TF="7041300871546936" FechaMovimiento="2023-06-07" Monto="26288" Descripcion="ATM de Santa Ana" Referencia="G3bZm" />
+         <Movimiento Nombre="Retiro en Ventana" TF="2835352309556452" FechaMovimiento="2023-06-07" Monto="66529" Descripcion="Sucursal de Naranjo" Referencia="1DgSe" />
+         <Movimiento Nombre="Pago en Linea" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="29246" Descripcion="Banca en Linea" Referencia="4QGkz" />
+         <Movimiento Nombre="Pago en ATM" TF="4325314918417076" FechaMovimiento="2023-06-07" Monto="52623" Descripcion="ATM de Mora" Referencia="7B8sF" />
+         <Movimiento Nombre="Pago en Ventana" TF="4325314918417076" FechaMovimiento="2023-06-07" Monto="43626" Descripcion="Sucursal de Golfito" Referencia="9Fyfg" />
+         <Movimiento Nombre="Compra" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="37572" Descripcion="Walmart Garabito" Referencia="G72Yq" />
+         <Movimiento Nombre="Retiro en ATM" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="22591" Descripcion="ATM de Atenas" Referencia="8f4Hq" />
+         <Movimiento Nombre="Retiro en Ventana" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="72926" Descripcion="Sucursal de Los Chiles" Referencia="4Nsja" />
+         <Movimiento Nombre="Pago en Linea" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="18410" Descripcion="Banca en Linea" Referencia="0ooDr" />
+         <Movimiento Nombre="Compra" TF="7041300871546936" FechaMovimiento="2023-06-07" Monto="47272" Descripcion="Walmart Parrita" Referencia="K4Kar" />
+         <Movimiento Nombre="Retiro en ATM" TF="3371837816428913" FechaMovimiento="2023-06-07" Monto="65028" Descripcion="ATM de La Cruz" Referencia="6PBIi" />
+      </Movimiento>
+   </fechaOperacion>
+   <fechaOperacion Fecha="2023-07-08">
+      <TH>
+         <TH Nombre="Rebecca Hawkins" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="7-5070-8009" NombreUsuario="RHawkins" Password="H3VYd" />
+         <TH Nombre="Courtney Evans" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="5-7397-2308" NombreUsuario="CEvans" Password="V12Ts" />
+         <TH Nombre="Sarah Solis" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="6-8874-5556" NombreUsuario="SSolis" Password="1SZpl" />
+         <TH Nombre="Laura Solis" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="9-3645-8694" NombreUsuario="LSolis" Password="f4WRp" />
+         <TH Nombre="Christopher Vincent" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="2-3690-4681" NombreUsuario="CVincent" Password="6EhR1" />
+         <TH Nombre="Elizabeth Torres" Tipo_Doc_Identidad="Cedula de CR" Valor_Doc_Identidad="5-2372-9287" NombreUsuario="ETorres" Password="YJ4Pd" />
+      </TH>
+      <NTCM>
+         <NTCM Codigo="34040" TipoCTM="Oro" LimiteCredito="5000000" TH="7-5070-8009" />
+         <NTCM Codigo="87635" TipoCTM="Corporativo" LimiteCredito="10000000" TH="5-7397-2308" />
+         <NTCM Codigo="83162" TipoCTM="Platino" LimiteCredito="7000000" TH="6-8874-5556" />
+      </NTCM>
+      <NTCA>
+         <NTCA CodigoTCM="34040" CodigoTCA="38459" TH="9-3645-8694" />
+         <NTCA CodigoTCM="34040" CodigoTCA="34573" TH="2-3690-4681" />
+         <NTCA CodigoTCM="83162" CodigoTCA="26876" TH="5-2372-9287" />
+      </NTCA>
+      <NTF>
+         <NTF Codigo="4170476919765534" TCAsociada="34040" FechaVencimiento="6/2023" CCV="3624" />
+         <NTF Codigo="2137906463980656" TCAsociada="38459" FechaVencimiento="6/2023" CCV="1211" />
+         <NTF Codigo="7458206968961309" TCAsociada="87635" FechaVencimiento="7/2024" CCV="6650" />
+         <NTF Codigo="4383609600035506" TCAsociada="34573" FechaVencimiento="4/2024" CCV="7186" />
+         <NTF Codigo="9758134487771082" TCAsociada="83162" FechaVencimiento="5/2024" CCV="8425" />
+         <NTF Codigo="4154838324190692" TCAsociada="26876" FechaVencimiento="6/2024" CCV="3101" />
+      </NTF>
+      <Movimiento>
+         <Movimiento Nombre="Compra" TF="4383609600035506" FechaMovimiento="2023-06-10" Monto="82331" Descripcion="Walmart Santa Ana" Referencia="4Ev9s" />
+         <Movimiento Nombre="Retiro en ATM" TF="2137906463980656" FechaMovimiento="2023-06-10" Monto="12238" Descripcion="ATM de Cañas" Referencia="y9Qlk" />
+         <Movimiento Nombre="Retiro en Ventana" TF="4154838324190692" FechaMovimiento="2023-06-10" Monto="68486" Descripcion="Sucursal de La Cruz" Referencia="NJ7Ii" />
+         <Movimiento Nombre="Pago en Linea" TF="4154838324190692" FechaMovimiento="2023-06-10" Monto="93993" Descripcion="Banca en Linea" Referencia="7NTcH" />
+         <Movimiento Nombre="Pago en ATM" TF="2137906463980656" FechaMovimiento="2023-06-10" Monto="19826" Descripcion="ATM de Turrialba" Referencia="62XxY" />
+         <Movimiento Nombre="Pago en Ventana" TF="2137906463980656" FechaMovimiento="2023-06-10" Monto="60263" Descripcion="Sucursal de Sarapiquí" Referencia="5Bwds" />
+         <Movimiento Nombre="Compra" TF="2137906463980656" FechaMovimiento="2023-06-10" Monto="32888" Descripcion="Walmart Alajuelita" Referencia="01ZmO" />
+         <Movimiento Nombre="Pago en Linea" TF="2137906463980656" FechaMovimiento="2023-06-10" Monto="12347" Descripcion="Banca en Linea" Referencia="4sSo0" />
+         <Movimiento Nombre="Compra" TF="7458206968961309" FechaMovimiento="2023-06-10" Monto="83350" Descripcion="Walmart Oreamuno" Referencia="yU5Kg" />
+         <Movimiento Nombre="Compra" TF="4383609600035506" FechaMovimiento="2023-06-10" Monto="27582" Descripcion="Walmart San Mateo" Referencia="7EVbe" />
+         <Movimiento Nombre="Retiro en ATM" TF="4383609600035506" FechaMovimiento="2023-06-10" Monto="34977" Descripcion="ATM de Pérez Zeledón" Referencia="d3Gwo" />
+         <Movimiento Nombre="Retiro en Ventana" TF="7458206968961309" FechaMovimiento="2023-06-10" Monto="3602" Descripcion="Sucursal de Santa Bárbara" Referencia="8BmPi" />
+         <Movimiento Nombre="Pago en Linea" TF="2137906463980656" FechaMovimiento="2023-06-10" Monto="35976" Descripcion="Banca en Linea" Referencia="Og0Yd" />
+         <Movimiento Nombre="Pago en ATM" TF="4154838324190692" FechaMovimiento="2023-06-10" Monto="64807" Descripcion="ATM de San Isidro" Referencia="U4NTw" />
+         <Movimiento Nombre="Pago en Ventana" TF="4154838324190692" FechaMovimiento="2023-06-10" Monto="84517" Descripcion="Sucursal de Naranjo" Referencia="O2Krw" />
+         <Movimiento Nombre="Compra" TF="7458206968961309" FechaMovimiento="2023-06-10" Monto="37803" Descripcion="Walmart Paraíso" Referencia="3L7gv" />
+         <Movimiento Nombre="Retiro en ATM" TF="4154838324190692" FechaMovimiento="2023-06-10" Monto="54767" Descripcion="ATM de Cartago" Referencia="s8oSg" />
+         <Movimiento Nombre="Retiro en Ventana" TF="9758134487771082" FechaMovimiento="2023-06-10" Monto="74797" Descripcion="Sucursal de Vázquez de Coronado" Referencia="5qVnq" />
+         <Movimiento Nombre="Compra" TF="9758134487771082" FechaMovimiento="2023-06-10" Monto="76345" Descripcion="Walmart Dota" Referencia="E6QXj" />
+         <Movimiento Nombre="Retiro en ATM" TF="4170476919765534" FechaMovimiento="2023-06-10" Monto="52779" Descripcion="ATM de San Mateo" Referencia="N9Tpn" />
+         <Movimiento Nombre="Compra" TF="9758134487771082" FechaMovimiento="2023-06-10" Monto="28385" Descripcion="Walmart León Cortés" Referencia="7FkpO" />
+         <Movimiento Nombre="Retiro en ATM" TF="4377103863544381" FechaMovimiento="2023-06-10" Monto="99053" Descripcion="ATM de Oreamuno" Referencia="e3UTf" />
+         <Movimiento Nombre="Retiro en Ventana" TF="4154838324190692" FechaMovimiento="2023-06-10" Monto="53550" Descripcion="Sucursal de Naranjo" Referencia="7VdkP" />
+         <Movimiento Nombre="Pago en Linea" TF="4325314918417076" FechaMovimiento="2023-06-10" Monto="16322" Descripcion="Banca en Linea" Referencia="Zu7Rx" />
+         <Movimiento Nombre="Recuperacion por Perdida" TF="4377103863544381" FechaMovimiento="2023-06-10" Monto="0" Descripcion="En Barva" Referencia="3Ubmm" />
+         <Movimiento Nombre="Recuperacion por Robo" TF="4383609600035506" FechaMovimiento="2023-06-10" Monto="0" Descripcion="En Orotina" Referencia="88BBu" />
+         <Movimiento Nombre="Pago en ATM" TF="4325314918417076" FechaMovimiento="2023-06-10" Monto="81455" Descripcion="ATM de Coto Brus" Referencia="2DVpL" />
+         <Movimiento Nombre="Pago en Ventana" TF="4170476919765534" FechaMovimiento="2023-06-10" Monto="72557" Descripcion="Sucursal de San Carlos" Referencia="Es3Ii" />
+         <Movimiento Nombre="Compra" TF="2835352309556452" FechaMovimiento="2023-06-10" Monto="47410" Descripcion="Walmart Carrillo" Referencia="tB5Dz" />
+         <Movimiento Nombre="Retiro en ATM" TF="4377103863544381" FechaMovimiento="2023-06-10" Monto="93584" Descripcion="ATM de Goicoechea" Referencia="5Q2v1" />
+         <Movimiento Nombre="Retiro en Ventana" TF="4154838324190692" FechaMovimiento="2023-06-10" Monto="80656" Descripcion="Sucursal de Belén" Referencia="1IkMw" />
+         <Movimiento Nombre="Pago en Linea" TF="4154838324190692" FechaMovimiento="2023-06-10" Monto="35565" Descripcion="Banca en Linea" Referencia="k8zUu" />
+         <Movimiento Nombre="Pago en ATM" TF="4325314918417076" FechaMovimiento="2023-06-10" Monto="33281" Descripcion="ATM de Turrubares" Referencia="g5O4d" />
+         <Movimiento Nombre="Pago en Ventana" TF="4325314918417076" FechaMovimiento="2023-06-10" Monto="88781" Descripcion="Sucursal de San Pablo" Referencia="2YWyu" />
+         <Movimiento Nombre="Compra" TF="5484908287631670" FechaMovimiento="2023-06-10" Monto="81604" Descripcion="Walmart Dota" Referencia="64Wul" />
+         <Movimiento Nombre="Retiro en ATM" TF="9758134487771082" FechaMovimiento="2023-06-10" Monto="94937" Descripcion="ATM de Escazú" Referencia="r8Gvf" />
+         <Movimiento Nombre="Retiro en Ventana" TF="4325314918417076" FechaMovimiento="2023-06-10" Monto="59727" Descripcion="Sucursal de San Isidro" Referencia="3HpUq" />
+         <Movimiento Nombre="Pago en Linea" TF="3371837816428913" FechaMovimiento="2023-06-10" Monto="78627" Descripcion="Banca en Linea" Referencia="0Aqze" />
+         <Movimiento Nombre="Compra" TF="4170476919765534" FechaMovimiento="2023-06-10" Monto="88748" Descripcion="Walmart Santa Bárbara" Referencia="o5W4w" />
+         <Movimiento Nombre="Retiro en ATM" TF="5484908287631670" FechaMovimiento="2023-06-10" Monto="9360" Descripcion="ATM de Tarrazú" Referencia="0EowT" />
+      </Movimiento>
+   </fechaOperacion>
+</root>
