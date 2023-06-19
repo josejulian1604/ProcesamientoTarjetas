@@ -19,8 +19,8 @@
          <NTCA CodigoTCM="16551" CodigoTCA="85245" TH="6-2517-1102" />
       </NTCA>
       <NTF>
-         <NTF Codigo="7041300871546936" TCAsociada="23517" FechaVencimiento="6/2023" CCV="5025" />
-         <NTF Codigo="4325314918417076" TCAsociada="42815" FechaVencimiento="6/2023" CCV="3070" />
+         <NTF Codigo="7041300871546936" TCAsociada="23517" FechaVencimiento="8/2023" CCV="5025" />
+         <NTF Codigo="4325314918417076" TCAsociada="42815" FechaVencimiento="8/2023" CCV="3070" />
          <NTF Codigo="4377103863544381" TCAsociada="16551" FechaVencimiento="3/2024" CCV="8943" />
          <NTF Codigo="5484908287631670" TCAsociada="56406" FechaVencimiento="5/2024" CCV="7031" />
          <NTF Codigo="3371837816428913" TCAsociada="36997" FechaVencimiento="7/2024" CCV="7061" />
@@ -89,8 +89,8 @@
          <NTCA CodigoTCM="83162" CodigoTCA="26876" TH="5-2372-9287" />
       </NTCA>
       <NTF>
-         <NTF Codigo="4170476919765534" TCAsociada="34040" FechaVencimiento="6/2023" CCV="3624" />
-         <NTF Codigo="2137906463980656" TCAsociada="38459" FechaVencimiento="6/2023" CCV="1211" />
+         <NTF Codigo="4170476919765534" TCAsociada="34040" FechaVencimiento="8/2023" CCV="3624" />
+         <NTF Codigo="2137906463980656" TCAsociada="38459" FechaVencimiento="8/2023" CCV="1211" />
          <NTF Codigo="7458206968961309" TCAsociada="87635" FechaVencimiento="7/2024" CCV="6650" />
          <NTF Codigo="4383609600035506" TCAsociada="34573" FechaVencimiento="4/2024" CCV="7186" />
          <NTF Codigo="9758134487771082" TCAsociada="83162" FechaVencimiento="5/2024" CCV="8425" />
